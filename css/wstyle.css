@@ -1,0 +1,73 @@
+.header .email, .contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.header .top-nav-bg {
+    background: rgb(37, 95, 221) !important;
+}
+
+/* nav */
+
+nav li a {
+    text-transform: uppercase;
+    color: rgb(37, 95, 221) !important;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 10px !important;
+}
+
+nav li a:hover, nav li a:focus {
+    transition: all 0.3s;
+    color: rgb(65, 65, 65) !important;
+}
+
+.search-icon {
+    font-size: 25px !important;
+    cursor: pointer;
+}
+
+/* carousel */
+
+.carousel-item .img {
+    width: 100% !important;
+}
+
+/* ---------- */
+
+.m10g-box {
+    background: rgb(250, 11, 158);
+    text-transform: uppercase !important;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 1000px) {
+    .f1-col {
+        margin-left: 35px !important;
+    }
+}
+
+/* section 3 */
+
+#PIA {
+    text-transform: uppercase;
+    color: rgb(84, 84, 218);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Plan-col-1 {
+    width: 100%;
+    background: rgb(59, 187, 209);
+}
+
+.Plan-col-2, .Plan-col-3, .Plan-col-4 {
+    width: 100%;
+    background: rgb(59, 187, 209);
+}
+
+.list-item {
+    color: white !important;
+    text-decoration: none !important;
+}

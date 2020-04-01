@@ -1,0 +1,158 @@
+.header .email, .contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.header .top-nav-bg {
+    background: rgb(37, 95, 221) !important;
+}
+
+/* nav */
+
+nav li a {
+    text-transform: uppercase;
+    color: rgb(37, 95, 221) !important;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 10px !important;
+}
+
+nav li a:hover, nav li a:focus {
+    transition: all 0.3s;
+    color: rgb(65, 65, 65) !important;
+}
+
+.search-icon {
+    font-size: 25px !important;
+    cursor: pointer;
+}
+
+/* carousel */
+
+.carousel-item .img {
+    width: 100% !important;
+}
+
+/* ---------- */
+
+.m10g-box {
+    background: rgb(250, 11, 158);
+    text-transform: uppercase !important;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 1000px) {
+    .f1-col {
+        margin-left: 35px !important;
+    }
+}
+
+/* section 3 */
+
+#PIA {
+    text-transform: uppercase;
+    color: rgb(84, 84, 218);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Plan-col-1 {
+    width: 100%;
+    background: rgb(59, 187, 209);
+}
+
+.Plan-col-2, .Plan-col-3, .Plan-col-4 {
+    width: 100%;
+    background: rgb(59, 187, 209);
+}
+
+.list-item {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* -------------- */
+
+.slink {
+    color: white !important;
+    text-decoration: none;
+}
+
+.Sahanewaj {
+    text-transform: uppercase;
+}
+
+/* -------------------- */
+
+.img1, .img2, .img3, .img4 {
+    width: 100%;
+    min-height: 350px;
+    border: 1px solid blue;
+    transition: all 0.3s;
+}
+
+.img1 {
+    background: url(../images/2.jpg);
+    background-size: 100%;
+}
+
+.img2 {
+    background: url(../images/3.jpg);
+    background-size: 100%;
+}
+
+.img3 {
+    background: url(../images/4.jpg);
+    background-size: 100%;
+}
+
+.img4 {
+    background: url(../images/5.jpg);
+    background-size: 100%;
+}
+
+.hover-2-description {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    text-align: center;
+    z-index: 99;
+    color: white !important;
+    transition: all 0.3s;
+}
+
+.hover-2-description a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.hover:hover .img1, .hover:hover .img2, .hover:hover .img3, .hover:hover .img4 {
+    background: linear-gradient(to top, rgb(158, 0, 0), rgba(0, 0, 255, 0.952));
+    background-size: 100%;
+}
+
+.hover-2:hover .hover-2-description {
+    transform: translateY(-1.5rem);
+    bottom: 9rem;
+    opacity: 1;
+}
+
+/* footer */
+
+#form {
+    border-radius: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.icon {
+    text-decoration: none;
+    color: white !important;
+    font-size: 30px !important;
+    padding: 6px;
+}
